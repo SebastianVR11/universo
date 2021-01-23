@@ -1,0 +1,71 @@
+.random {
+    padding-top: 2em;
+}
+
+/* CARD */
+.card{
+    border:1px solid rgb(4, 0, 255);
+    background-color: #000;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat:no-repeat;
+    margin:8px 1px;
+    height: auto;
+}
+
+.card__p{
+    font-size:1.5em;
+    font-weight: 600;
+    color:#fff;
+    font-style: italic;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+
+.card1,
+.card3{
+    background-image:url(../../../assets/images/mas/imagen1.jpg);
+    background-size: contain;
+}
+
+.card2{
+    background-image:url(../../../assets/images/mas/imagen7.jpg);
+    background-size: cover;
+}
+
+.card4,
+.card8{
+    background-image:url(../../../assets/images/mas/imagen2.jpg);
+    background-size: contain;
+}
+
+.card5{
+    background-image:url(../../../assets/images/mas/imagen3.png);
+    background-size: contain;
+}
+
+.card6{
+    background-image:url(../../../assets/images/mas/imagen6.jpg);
+    background-size: cover;
+}
+
+.card7{
+    background-image:url(../../../assets/images/mas/imagen5.jpg);
+    background-size: cover;
+    
+}
+
+.card9,
+.card10{
+    background-image:url(../../../assets/images/mas/imagen4.jpg);
+    background-size: cover;
+    
+}
+
+.card-body{
+    display:flex;
+}
+
+.card__p1{
+    align-items: center;
+}
+/* CARD - FIN */

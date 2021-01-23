@@ -1,0 +1,44 @@
+.contenedor{
+    background:rgba(24, 71, 179, .5);
+}
+
+/*--- --- --- HEADER --- --- ---*/
+.header-fluid{
+    background-image:url(../../assets/images/fondos/header-fluid-fondo.jpg);
+    background-repeat:none;
+}
+
+.header__imagen{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin:auto;
+}
+
+header h1{
+    font-family: 'Red Rose', cursive;
+    color:#fff;
+    text-shadow:rgb(161, 161, 161) 5px 5px 5px;
+}
+/*--- --- --- HEADER - FIN --- --- ---*/
+
+/*--- --- --- MAIN --- --- ---*/
+.principal p,
+.kardashov p {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.principal h2,
+.kardashov h2 {
+    color: #fff;
+}
+
+.principal h3,
+.kardashov h3 {
+    color: #fff;
+}
+/*--- --- --- MAIN - FIN --- --- ---*/
+
+
+

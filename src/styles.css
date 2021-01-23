@@ -1,0 +1,237 @@
+body {
+    background-image: url(assets/images/fondos/fondo.jpg);
+}
+
+
+
+
+
+/*--- --- --- ESTILOS GENERALES --- --- ---*/
+
+/*--- --- --- HEADER --- --- ---*/
+.header-fluid {
+    background-image:url(assets/images/fondos/header-fluid-fondo.jpg);
+    background-repeat:none;
+}
+
+.header__imagen {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin:auto;
+}
+
+.header-titulo {
+    font-family: 'Red Rose', cursive;
+    color:#fff;
+    text-shadow:rgb(161, 161, 161) 5px 5px 5px;
+}
+/*--- --- --- HEADER - FIN --- --- ---*/
+
+/*--- --- --- MAIN - ASIDE --- --- ---*/
+.articulo-principal {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.card {
+    height: 26.25em;
+    margin-top: 20px;
+}
+
+.card-body {
+    color:#000;
+}
+
+.card-title {
+    text-align: center;
+}
+/*--- --- --- MAIN - ASIDE - FIN --- --- ---*/
+
+/*--- --- --- GALERIA --- --- ---*/
+.galeria{
+    font-size:2em;
+    color:white;
+    border:3px solid rgb(61, 61, 61);
+    border-radius:30px;
+    margin-top: 40px;
+}
+
+.galeria__titulo{
+    color:#fff;
+    display: flex;
+    justify-content:center;
+}
+
+.galeria__img{
+    width: 350px;
+    height: 210px;
+    padding:15px;
+    border-radius: 30px;
+}
+
+@media (min-width:701px) and (max-width:1000px){
+    .img1{
+        width:49%;
+    }
+    
+    .img2{
+        width:49%;
+    }
+
+    .img3{
+        width:49%;
+    }
+
+    .img4{
+        width:49%;
+    }
+
+    .img5{
+        width:49%;
+    }
+
+    .img6{
+        width:49%;
+    }
+
+    .img7{
+        width:49%;
+    }
+
+    .img8{
+        width:49%;
+    }
+
+    .img9{
+        width:49%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .img1{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+    
+    .img2{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img3{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img4{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img5{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img6{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img7{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img8{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .img9{
+        width:85%;
+        margin:0 auto;
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1001px){
+    .img1{
+        width:32.5%;
+    }
+    
+    .img2{
+        width:32.5%;
+    }
+
+    .img3{
+        width:32.5%;
+    }
+
+    .img4{
+        width:32.5%;
+    }
+
+    .img5{
+        width:32.5%;
+    }
+
+    .img6{
+        width:32.5%;
+    }
+
+    .img7{
+        width:32.5%;
+    }
+
+    .img8{
+        width:32.5%;
+    }
+
+    .img9{
+        width:32.5%;
+    }
+}
+/*--- --- --- GALERIA - FIN --- --- ---*/
+
+
+
+/*--- --- --- DEMAS... --- --- ---*/
+
+/*--- --- --- FONDO --- --- ---*/
+.fondo-demas {
+    background: rgb(53, 54, 104);
+}
+/*--- --- --- FONDO - FIN --- --- ---*/
+
+/*--- --- --- HEADER --- --- ---*/
+.header-demas-row {
+    height: 7em;
+    display: flex;
+}
+
+.header-demas-col {
+    align-self: center;
+}
+
+.header-demas-titulo {
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    color:#fff;
+    text-shadow:rgb(161, 161, 161) 5px 5px 5px;
+}
+/*--- --- --- HEADER - FIN --- --- ---*/
+
+/*--- --- --- DEMAS... - FIN --- --- ---*/
+
+/*--- --- --- ESTILOS GENERALES - FIN --- --- ---*/

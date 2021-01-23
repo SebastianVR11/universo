@@ -1,0 +1,113 @@
+<!--- --- --- NAV --- --- --->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+    <div class="container">
+        <a class="navbar-brand" [routerLink]="['/home']">
+            <img src="../assets/images/fondos/via lactea.png" alt="via lactea" class="icon-nav">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--- --- --- PLANETAS --- --- --->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Planetas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                        <a [routerLink]="['/Mercurio']" class="dropdown-item">Mercurio</a>
+                        <a [routerLink]="['/Venus']" class="dropdown-item">Venus</a>
+                        <a [routerLink]="['/Marte']" class="dropdown-item">Marte</a>
+                        <a [routerLink]="['/Jupiter']" class="dropdown-item">Jupiter</a>
+                        <a [routerLink]="['/Saturno']" class="dropdown-item">Saturno</a>
+                        <a [routerLink]="['/Urano']" class="dropdown-item">Urano</a>
+                        <a [routerLink]="['/Neptuno']" class="dropdown-item">Neptuno</a>
+                        <a href="html/planetas/pluton.html" class="dropdown-item">Pluton</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--- --- --- LUNAS / ESTRELLAS --- --- --->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lunas / Estrellas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                        <a [routerLink]="['/La Luna']" class="dropdown-item">Luna</a>
+                        <a href="html/lunas-estrellas/lunas/mas-lunas.html" class="dropdown-item">Mas lunas</a>
+                        <a [routerLink]="['/El Sol']" class="dropdown-item">El sol</a>
+                        <a href="html/lunas-estrellas/estrellas/otras estellas.html" class="dropdown-item">Mas estrellas</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--- --- --- EXOPLANETAS --- --- --->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Exoplanetas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                        <a href="#" class="dropdown-item">Kepler-186F</a>
+                        <a href="#" class="dropdown-item">HD 209458 b</a>
+                        <a href="#" class="dropdown-item">Kepler-11</a>
+                        <a href="#" class="dropdown-item">Kepler-16b</a>
+                        <a href="#" class="dropdown-item">51 Pegasi b</a>
+                        <a href="#" class="dropdown-item">CoRoT 7b</a>
+                        <a href="#" class="dropdown-item">Kepler-22b</a>
+                        <a href="#" class="dropdown-item">Kepler-10b</a>
+                        <a href="#" class="dropdown-item">55 Cancri e</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--- --- --- GALAXIAS --- --- --->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Galaxias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                        <a href="#" class="dropdown-item">Via Lactea</a>
+                        <a href="#" class="dropdown-item">Andromeda</a>
+                        <a href="#" class="dropdown-item">NGC 6753</a>
+                        <a href="#" class="dropdown-item">Palo de Hockey</a>
+                        <a href="#" class="dropdown-item">NGC 4248</a>
+                        <a href="#" class="dropdown-item">NGC 2500</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--- --- --- MAS... --- --- --->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mas...
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                        <a href="#" class="dropdown-item">Teoria de cuerdas</a>
+                        <a href="#" class="dropdown-item">Agujero de gusano</a>
+                        <a [routerLink]="['/Otros Cuerpos']" class="dropdown-item">Otros cuerpos</a>
+                        <a [routerLink]="['/Imagenes']" class="dropdown-item">Imagenes</a>
+                        <a href="#" class="dropdown-item">Videos</a>
+                        <a [routerLink]="['/Datos Random']" class="dropdown-item">Datos random</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--- --- --- NAV - FIN --- --- --->
+
+<router-outlet></router-outlet>

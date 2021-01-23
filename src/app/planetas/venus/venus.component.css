@@ -1,0 +1,111 @@
+.fondo {
+    background:rgb(218, 91, 18);
+}
+
+.orbita {
+    position: relative;
+    background: url(../../../assets/images/caricaturas/espacio-exterior.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 2em;
+}
+
+.orbita span {
+    position: absolute;
+    font-size: 1em;
+    color: #aaaaaa;
+    top: 92%;
+    left: 1%;
+}
+
+.sol {
+    /*-----Centrar----*/
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 40px);
+    /*-----Tamaño----*/
+    width: 80px;
+}
+
+.venus {
+    /*-----Centrar----*/
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 15px);
+    /*-----Tamaño----*/
+    width: 30px;
+}
+
+@keyframes pulse{
+    0%{
+          /*box-shadow: 0 0 20px 3px rgb(255, 175, 58);*/
+          transform: rotate(0deg);
+      }
+    100%{
+          /*box-shadow: 0 0 25px 5px rgb(255, 175, 58);*/
+          transform: rotate(360deg);
+      }
+}
+
+@keyframes orbita {
+    from{
+      transform: rotate(0);
+    }
+    to{
+      transform: rotate(360deg);
+    }  
+}
+
+.sol {
+    /*animation: pulse 4s infinite alternate;*/
+    animation: pulse 90s linear infinite;
+}
+
+.venus {
+    transform-origin: 15px 120px;
+    animation: orbita 88s infinite linear;
+}
+
+/* TARGETAS DE INFORMACION */
+.info-venus {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 165px);
+    width: 330px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(79, 79, 255);
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+}
+
+.info-venus-img {
+    width: 100%;
+}
+
+.venus:hover {
+    cursor: pointer;
+}
+
+.si-ver {
+    display: block;
+}
+
+.no-ver {
+    display: none;
+}
+
+.cerrar-venus {
+    padding: 5px;
+    font-size: 1.1em;
+    background: rgb(190, 47, 47);
+    border: none;
+    border-radius: 5px;
+}
+
+.cerrar-venus:hover {
+    cursor: pointer;
+    background: rgb(201, 19, 19);
+}
